@@ -1,0 +1,51 @@
+class AppConstants{
+  static const String watchlistUrl = 'https://run.mocky.io/v3/ec1a0f0c-3739-4914-b5c0-2140e5165fe5';
+  static const String getOtpUrl = "https://dev.gwcindia.in/msil-gwc-webservice-dev/User/GenerateOTP/1.0.0";
+  static const String loginUrl = "https://dev.gwcindia.in/virtual-trade/User/Login/1.0.0";
+  static const String email = 'email';
+  static const String password = "password";
+  static const String myAccount = "Account";
+  static const String limits = "Limits";
+  static const String settings = "Settings";
+  static const String loginFail = "Login Failed Please try again.";
+  static const String credEmpty = "Credentials cannot be empty";
+  static const String watchlist = "Watchlist";
+  static const String logout = "Logout";
+  static const String nifty50 = "NIFTY 50";
+  static const String sensex = "SENSEX";
+  static const String logoutMsg = "Do you want to logout?";
+  static const String strCancel = "Cancel";
+  static const String strOk = "Ok";
+  static const String strUserId = "Mobile Number";
+  static const String strPassword = "Password";
+  static const String strLogin = "Login";
+  static const String strOverview = "Overview";
+  static const String strTechnicals = "Technicals";
+  static const String strFutures = "Futures";
+  static const String strOptions = "Options";
+  static const String strNews = "News";
+  static const String strAtoZ = "A-Z";
+  static const String strZtoA = "Z-A";
+  static const String str0to9 = "0-9";
+  static const String str9to0 = "9-0";
+  static const String strSell = "SELL";
+  static const String strBuy = "BUY";
+  static const String strDataFetchError = "Unable to fetch data";
+  static const String strNse = "NSE";
+  static const String strSbi = "STATE BANK OF INDIA";
+  static const String strProduct = "Product";
+  static const String strDelivery = "Delivery";
+  static const String strIntraday = "Intraday";
+  static const String strEMargin = "E-Margin";
+  static const String strCover = "Cover";
+  static const String strGetOtp = "Get OTP";
+  static const String strEnterOtp = "Enter OTP";
+
+  //routes
+  static const String loginLocation = "/login";
+  static const String watchlistLocation = "/home/watchlist";
+  static const String limitsLocation = "/home/limits";
+  static const String accountLocation = "/home/account";
+  static const String settingsLocation = "/home/settings";
+  static const String strAccount = "account";
+}
