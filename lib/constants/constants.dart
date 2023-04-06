@@ -40,6 +40,8 @@ class AppConstants{
   static const String strCover = "Cover";
   static const String strGetOtp = "Get OTP";
   static const String strEnterOtp = "Enter OTP";
+  static const String strPrice = "Price";
+  static const String strQuantity = "Quantity";
 
   //routes
   static const String loginLocation = "/login";

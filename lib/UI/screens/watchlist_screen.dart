@@ -707,7 +707,7 @@ class _WatchlistScreenState extends State<WatchlistScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Quantity",
+                                AppConstants.strQuantity,
                                 style: Theme.of(context).textTheme.labelSmall,
                               ),
                               const SizedBox(
@@ -731,7 +731,7 @@ class _WatchlistScreenState extends State<WatchlistScreen> {
                               Row(
                                 children: [
                                   Text(
-                                    "Price",
+                                    AppConstants.strPrice,
                                     style: Theme.of(context).textTheme.labelSmall,
                                   ),
                                   // Checkbox(value: checkBoxValue, onChanged: (value){}),
